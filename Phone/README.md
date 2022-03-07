@@ -1,5 +1,4 @@
-
-Smart phone applications implemented in java using GUI.
+# Smart phone applications implemented in java using GUI
 
 It's a bit mess because it started from a simple excercise, and we were asked to add more and more applications and things.
 
