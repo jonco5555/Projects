@@ -1,6 +1,6 @@
 Instructions how to execute appears in the PDF file in Hebrew.
 
-In English:
+Sum up in English:
  1. Run mix.py and send a number as command line argument (the number should be as the number of lines in the ips.txt file)
     It also means that the corresponding pk_i and sk_i are used by this mix server.
  2. In order to create multiple mixes, one can run mix.py again in cmd with different number, or run mix2.py and mix3.py in the IDE, and create more as he wishes.
