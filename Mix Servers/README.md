@@ -18,3 +18,5 @@ Example for a line in messagesX.txt:
   salt - salt for symmetric key creation
   127.0.0.1 - destination IP
   5000 - destination port
+ 
+receiver2.py is for messages2.txt, there are two targets there.
