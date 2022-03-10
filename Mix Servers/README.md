@@ -1,6 +1,6 @@
 # Mix Servers
 
-Implementation of a Network Communication System with several servers that allows anonymous communication against Eavesdropping attacks using Cryptography Concepts
+Implementation of a Network Communication System with several servers that allows anonymous communication against eavesdropping attacks using cryptography concepts
 
 Instructions how to execute appears in the PDF file in Hebrew.
 
@@ -12,15 +12,15 @@ Sum up in English:
  4. Now, execute sender.py. Send a number X as command line argument to open messagesX.txt.
  5. Wait for the code to run, each server sends the messages ha's gathered last 60 seconds, every 60 seconds. It could be changed for faster test in line 24 in mix.py.
 
-Example for a line in messagesX.txt:
+Example for a line in messagesX.txt:\
   cc cc 3,2,1 0 password salt 127.0.0.1 5000
   
-  cc cc - message
-  3,2,1 - path, mix3 -> mix2 -> mix1 (the numbers correspond to the number in the command line in the execution)
-  0 - round, message should be sent on first round. If it was 1, the message should be sent after 60 secs
-  password - password for symmetric key creation
-  salt - salt for symmetric key creation
-  127.0.0.1 - destination IP
+  cc cc - message\
+  3,2,1 - path, mix3 -> mix2 -> mix1 (the numbers correspond to the number in the command line in the execution)\
+  0 - round, message should be sent on first round. If it was 1, the message should be sent after 60 secs\
+  password - password for symmetric key creation\
+  salt - salt for symmetric key creation\
+  127.0.0.1 - destination IP\
   5000 - destination port
  
 receiver2.py is for messages2.txt, there are two targets there.
